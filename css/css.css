@@ -44,7 +44,7 @@ body{
     padding: 1% 0;
 }
 
-.bgMobileBlock{
+.bgMobileBlock, .bgEmpresa03{
     background-image: url(../images/stars.png);
     background-color: #fff;
     background-repeat: no-repeat;
@@ -241,6 +241,58 @@ body{
         z-index: 500;
     }
  }
+
+
+/* A One Station Media*/
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.pH1{
+    padding: 5% 0;
+}
+
+.bgEmpresa01{
+    background-image: url(../images/stars.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgEmpresa02{
+    background-image: url(../images/bgEmpresa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.txtEmpresa01{
+    font-size: 1.2em;
+}
+
+.txtEmpresa02{
+    font-size: 2.2em;
+    font-weight: 900;
+    color: #fff;
+}
+
+.txtEmpresa03{
+    font-size: 1.8em;
+    color: #582480;
+    font-weight: 700;
+}
+
+.mTop4{
+    margin-top: 15%;
+}
+
+
 /*
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
