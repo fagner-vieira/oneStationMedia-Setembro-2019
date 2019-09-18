@@ -1,6 +1,170 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800&display=swap');
+
+/* Início */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    background-image: url(../images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+
+    background-attachment: fixed;
+}
+
+.bgBanner{
+
+}
+
+.txtBanner01{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.txtBanner02{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+.mTop{
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+
+.bgBarraMarcas{
+    background-color: #fafafa;
+    padding: 1% 0;
+}
+
+.bgMobileBlock{
+    background-image: url(../images/stars.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bgMobileBlockGray{
+    background-image: url(../images/stars.png);
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mTop02{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.txtWhos{
+    color: #582480;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.mTop3{
+    margin-top: 7%;
+}
+
+.txtFuturo{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 3% 0;
+    text-transform: uppercase;
+}
+
+.tituloSolucoes, .txtFooter01{
+    color: #582480;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 8%;
+}
+
+.blocoSolucoes{
+    background-color: #652c90;
+    border-radius: 8px;
+
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+
+.txtSolucoes{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border-color: #ccc;
+    color: #ccc;
+}
+
+.txtFooter01{
+    text-align: left;
+}
+
+.txtFooter02{
+    color: #582480;
+    font-size: 1.5em;
+    line-height: 18px;
+}
+
+.txtFooter02 a{
+    color: #582480;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.txtFooter02 a:hover{
+    color:#ccc;
+}
+
+.txtFooter03{
+    color: #582480;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.mSocial{
+    margin-top: 2%;
+}
+
+.form{
+    background-color: #582480;
+    border-radius: 8px;
+    padding: 10%;
+}
+
+.btnAlign {
+    text-align: center;
+}
+
+/*
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
@@ -14,4 +178,4 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { ... }*/
