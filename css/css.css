@@ -164,6 +164,22 @@ body{
     text-align: center;
 }
 
+.bgRodape{
+    background-color: #582480;
+}
+
+.pRodape{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.txtRodape{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 /*
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }

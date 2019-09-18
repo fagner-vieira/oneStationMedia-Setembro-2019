@@ -1,5 +1,13 @@
 
-
+<footer class="container-fluid bgRodape">
+    <div class="container">
+        <div class="row pRodape">
+            <div class="col-lg-12">
+                <p class="txtRodape">COPYRIGHT© 2019 - TODOS OS DIREITOS RESERVADOS</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
