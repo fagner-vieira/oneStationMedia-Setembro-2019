@@ -81,17 +81,4 @@
     </div>
 </section>
 
-
-<section class="container-fluid bgMobileBlockGray">
-    <div class="container">
-        <div class="row mTop02">
-
-
-
-
-
-        </div>
-    </div>
-</section>
-
 <?php  include_once("footer.php"); ?>     
