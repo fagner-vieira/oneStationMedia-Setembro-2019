@@ -78,15 +78,15 @@
                     <p class="txtFooter03">Nos acompanhe</p>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <a href="#"><img src="images/face.png" class="img-responsive" alt=""></a>                  
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <a href="#"><img src="images/linkedin.png" class="img-responsive" alt=""></a>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <a href="#"><img src="images/insta.png" class="img-responsive" alt=""></a>
                 </div>
 

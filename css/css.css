@@ -213,6 +213,12 @@ body{
     background-color: #fff;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    position: relative;
+    z-index: 100;
+}
+
 
 @media (max-width: 575.98px) { 
     .navbar-default {
@@ -225,6 +231,14 @@ body{
         font-size: 1.2em;
         background-color: #582480;
         z-index: 500;
+    }
+
+    .txtEmpresa02 {
+        text-align: center;
+    }
+
+    .txtEmpresa03 {
+        font-size: 1.4em !important;
     }
  }
 
@@ -239,6 +253,14 @@ body{
         font-size: 1.2em;
         background-color: #582480;
         z-index: 500;
+    }
+
+    .txtEmpresa02 {
+        text-align: center;
+    }
+
+    .txtEmpresa03 {
+        font-size: 1.4em !important;
     }
  }
 
