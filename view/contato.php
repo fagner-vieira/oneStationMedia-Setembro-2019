@@ -1,120 +1,97 @@
-<?php include_once("header.php");?>
+<?php  include_once("header.php"); ?>
 
-	<main>
-		
-		<section class="cd-section contact cd-selected">
-			
-			<div class="section section-padding-top-bottom-head">
-	
-				<div class="parallax-contact"></div>	
-				
-				<div class="container">	
-					<div class="sixteen columns">
-						<div class="section-head-text left">
-							<h2>Contato</h2>
-							<p>Fale com a Bluegg</p>
-						</div>
-					</div>	
-				</div>
-			</div>
-			
-			<div class="section section-padding-top-bottom-same-wrapper white-background">						
-				<div class="container">	
-					<div class="sixteen columns">
-						<div class="section-head-text center">
-							<h4>Tem algum dúvida?</h4>
-							<p>Entre em contato!</p>
-						</div>
-					</div>
-					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">							
-						<div class="contact-block">																
-							<div class="text">				
-								<h5><span>&#xf4b8;</span> Telefone</h5>	
-								<p>+55 11 3758-1117</p>
-							</div>
-						</div>
-					</div>	
-					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">							
-						<div class="contact-block">							
-							<div class="text">				
-								<h5><span>&#xf2a6;</span> Endereço</h5>
-								<p>Francisco Tramontano, 101 cj 202 - SP</p>
-							</div>
-						</div>
-					</div>
-					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">							
-						<div class="contact-block">					
-							<div class="text">				
-								<h5><span>&#xf422;</span> E-mail</h5>
-								<p>contato@bluegg.com.br</p>
-							</div>
-						</div>
-					</div>		
-				</div>	
-			</div>
-			
-			<div class="section section-padding-bottom white-background">						
-				<div class="container">	
-				
-					<div class="clear"></div>
-						
-					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-						<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="name"> 
-								<span class="error" id="err-name">Seu nome</span>
-							</label>
-							<input name="name" id="name" type="text"   placeholder="Nome: *"/>
-						</div>
-						<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="email"> 
-								<span class="error" id="err-email">Seu e-mail</span>
-								<span class="error" id="err-emailvld">Formato de e-mail inválido</span>
-							</label>
-							<input name="email" id="email" type="text"  placeholder="E-mail: *"/>
-						</div>
-						<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="message"></label>
-							<textarea name="message" id="message" placeholder="Deixe sua mensagem!"></textarea>
-						</div>
-						<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<div id="button-con"><button class="send_message chaffle" id="send" data-lang="en">enviar</button></div>					
-						</div>
-						<div class="clear"></div>	
-						<div class="error text-align-center" id="err-form">Tivemos um problema, por favor revise seus dados!</div>
-						<div class="error text-align-center" id="err-timedout">Conexão com o servidor excedeu o limite de tempo.</div>
-						<div class="error" id="err-state"></div>
-					</form>	
-						
-					<div class="clear"></div>
-					<div id="ajaxsuccess">Enviado!! Muito Obrigado ;)</div>
-					<div class="clear"></div>
-				
-				</div>	
-			</div>
-			
-			<div class="section">
-			
-				<div id="cd-google-map">
-					<div id="google-container"></div>
-					<div id="cd-zoom-in"></div>
-					<div id="cd-zoom-out"></div>
-					<address>R. Francisco Tramontano, 101 cj. 201 - 202<br>São Paulo +55 11 3758-1117</address> 
+<section class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 pH1">
+                <h1>contatos</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid bgEmpresa01">
+    <div class="container">
+        <div class="row mTop3">
+
+            <div class="col-lg-6">
+                <img src="images/contato.png" class="img-responsive center-block" alt="">
+            </div>
+
+            <div class="col-lg-6 mTop3">
+                <div class="row">
+
+                	<div class="col-lg-12">
+                    	<p class="txtFooter01">fale conosco!</p>
+                	</div>
+
+                	<div class="col-lg-12">
+                    	<p class="txtFooter02">Escreva ou mande um e-mail para:</p>
+                    	<p class="txtFooter02"><a href="mailto:sales@onestationmedia.com">sales@onestationmedia.com</a></p>     
+                	</div>
+
+                	<div class="col-lg-12 mSocial">
+                    	<p class="txtFooter03">Nos acompanhe</p>
+                	</div>
+
+                	<div class="col-lg-2 col-xs-2">
+                    	<a href="#"><img src="images/face.png" class="img-responsive" alt=""></a>                  
+                	</div>
+
+                	<div class="col-lg-2 col-xs-2">
+                    	<a href="#"><img src="images/linkedin.png" class="img-responsive" alt=""></a>
+                	</div>
+
+                	<div class="col-lg-2 col-xs-2">
+                   		<a href="#"><img src="images/insta.png" class="img-responsive" alt=""></a>
+                	</div>
+
 				</div>
 				
-			</div>
-			
-		</section> <!-- .cd-section -->
-	</main>
+				<div class="row mTop3">
+						<div class="col-lg-12">
+								<div class="form">
+									<form name="form-gohotsale" id="form-gohotsale" method="POST" action="https://gohotsale.com.br/leads">
+										<input type="hidden" name="hotsite" id="hotsite" value="one-station-media-hotsite">
+										<input type="hidden" name="company" id="company" value="one-station-media">
+										<div id="my_name_wrap" style="display:none;">
+											<input name="my_name" type="text" value="" id="my_name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="nome" name="name" required="required" placeholder="NOME">
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control" id="email" name="email" required="required" placeholder="E-MAIL">
+										</div>
+										<div class="form-group">
+											<textarea class="form-control" rows="5" id="mensagem" name="custom_param_1" placeholder="MENSAGEM"></textarea>
+										</div>
+										<div class="btnAlign">
+											<button type="submit" class="btn btn-primary">Enviar</button>
+										</div>
+									</form>
+								</div>
+							</div>
+				</div>
+
+
+        	</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid bgMobileBlockGray">
+    <div class="container">
+        <div class="row mTop02">
 
 
 
 
-<?php include_once("footer.php");?>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
-	<!-- ==================
-		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
-		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
-		coordinates for map you can change in custom-contact.js file 
-	================== -->	
-<script type="text/javascript" src="js/contact.js"></script>	
-<script type="text/javascript" src="js/custom-contact.js"></script>
+
+        </div>
+    </div>
+</section>
+
+<?php  include_once("footer.php"); ?>     
