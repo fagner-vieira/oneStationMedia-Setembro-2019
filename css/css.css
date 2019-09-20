@@ -243,7 +243,7 @@ body{
  }
 
 
-/* A One Station Media*/
+/* A One Station Media */
 
 h1{
     color: #fff;
@@ -260,9 +260,8 @@ h1{
 .bgEmpresa01{
     background-image: url(../images/stars.png);
     background-color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 1920px;
+    background-position: center top;
 }
 
 .bgEmpresa02{
@@ -292,6 +291,51 @@ h1{
     margin-top: 15%;
 }
 
+/* Nossas Soluções */
+
+.titulos, .titulosCenter{
+    color: #582480;
+    font-weight: 900;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.bgSolucoes01{
+    background-image: url(../images/bgSolucoes01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.txtSolucoes01{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.titulosCenter{
+    text-align: center;
+}
+
+.txtSolucoes02{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.resultado{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.txtSolucoes03{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
 
 /*
 // Medium devices (tablets, 768px and up)

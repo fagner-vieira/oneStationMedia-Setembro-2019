@@ -38,8 +38,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">Home</a></li>
         <li><a href="/a-one-station-media">A One Station Media</a></li>
-        <li><a href="#">Nossas Soluções</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="/solucoes">Nossas Soluções</a></li>
+        <li><a href="/contato">Contato</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
